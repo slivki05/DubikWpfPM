@@ -28,3 +28,10 @@ C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page3.baml
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page4.baml
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page5.baml
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\Page6.baml
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete

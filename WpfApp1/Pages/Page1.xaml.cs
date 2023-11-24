@@ -23,6 +23,12 @@ namespace WpfApp1.Pages
         public Page1()
         {
             InitializeComponent();
+            DGridHotels.ItemsSource = TourBaseEntities.GetContext().Hotel.ToList();
+        }
+
+        private void BtnEdit_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
