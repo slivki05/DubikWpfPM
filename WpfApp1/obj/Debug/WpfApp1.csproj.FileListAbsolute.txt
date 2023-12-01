@@ -35,3 +35,5 @@ C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\TourEdit.g.cs
+C:\Users\regin\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\TourEdit.baml

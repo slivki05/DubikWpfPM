@@ -5,36 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Главное меню" Height="450" Width="800">
+        Title="Главное меню" Height="450" Width="758">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="31"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="25*"/>
-            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Frame Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden">
-            <Frame.Background>
-                <ImageBrush ImageSource="background1.png"/>
-            </Frame.Background>
-        </Frame>
-        <StackPanel>
-            <StackPanel.Background>
-                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                    <GradientStop Color="#FF6DECE9"/>
-                    <GradientStop Color="#FF6FE669" Offset="1"/>
-                </LinearGradientBrush>
-            </StackPanel.Background>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Image Source="logo1.png" Margin="20,20,20,10"/>
-                <Button Content="Главная" Click="Button_Click"/>
-                <Button Content="1" Click="Button_Click_1"/>
-                <Button Content="2" Click="Button_Click_2"/>
-                <Button Content="3" Click="Button_Click_3"/>
-                <Button Content="4" Click="Button_Click_4"/>
-                <Button Content="5" Click="Button_Click_5"/>
-                <Button Content="6" Click="Button_Click_6"/>
+        <Grid Grid.ColumnSpan="3" Grid.Row="1">
+            <Frame Name="MainFrame" NavigationUIVisibility="Hidden">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF195C5D" Offset="0"/>
+                        <GradientStop Color="#FF268D87" Offset="1"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+            </Frame>
+        </Grid>
 
-            </StackPanel>
-        </StackPanel>
-
+        <Grid Margin="0,0,0,1"></Grid>
+        <Grid Grid.Column="0">
+            <Button Content="Отели" Click="Button_Click_1" Height="Auto"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Button Content="Главная" Click="Button_Click" Height="Auto"/>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Button Content="Туры" Click="Button_Click_2" Height="Auto"/>
+        </Grid>
     </Grid>
 </Window>
